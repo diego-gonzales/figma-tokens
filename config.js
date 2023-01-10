@@ -1,0 +1,14 @@
+module.exports = {
+  source: [`tokens/**/*.json`],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "files": [
+        {
+          "destination": "css/variables.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+};

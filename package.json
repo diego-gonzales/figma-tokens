@@ -1,0 +1,13 @@
+{
+  "name": "test-figma-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "transformer": "token-transformer tokens.json tokens/input.json",
+    "dictionary": "style-dictionary build --config config.js"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.29"
+  }
+}
