@@ -1,11 +1,16 @@
 /**
  * Do not edit directly
- * Generated on Wed, 11 Jan 2023 00:26:48 GMT
+ * Generated on Wed, 11 Jan 2023 14:29:27 GMT
  */
 
 :root {
-  --button-primary-background: #5a67d8;
+  --token-set-order-0: core;
+  --token-set-order-1: light;
+  --token-set-order-2: dark;
+  --token-set-order-3: theme;
+  --button-primary-background: #c3002f;
   --button-primary-text: #ffffff;
+  --button-border-radius: 6;
   --button-border-width: 8;
   --card-border-radius: 8;
   --card-background: #1a202c;
@@ -22,7 +27,7 @@
   --bg-default: #1a202c;
   --bg-muted: #4a5568;
   --bg-subtle: #718096;
-  --accent-default: #5a67d8;
+  --accent-default: #c3002f;
   --accent-on-accent: #ffffff;
   --accent-bg: #434190;
   --shadows-default: #0000004d;
@@ -42,6 +47,7 @@
   --border-radius-lg: 8;
   --border-radius-xl: 16;
   --border-radius-multi-value: 4 8;
+  --border-radius-md: 6;
   --colors-black: #000000;
   --colors-white: #ffffff;
   --colors-gray-100: #f7fafc;
@@ -112,7 +118,7 @@
   --colors-indigo-300: #a3bffa;
   --colors-indigo-400: #7f9cf5;
   --colors-indigo-500: #667eea;
-  --colors-indigo-600: #5a67d8;
+  --colors-indigo-600: #c3002f;
   --colors-indigo-700: #4c51bf;
   --colors-indigo-800: #434190;
   --colors-indigo-900: #3c366b;
@@ -159,8 +165,4 @@
   --font-sizes-body: 16;
   --font-sizes-sm: 13.6;
   --font-sizes-xs: 10.4;
-  --token-set-order-0: core;
-  --token-set-order-1: light;
-  --token-set-order-2: dark;
-  --token-set-order-3: theme;
 }

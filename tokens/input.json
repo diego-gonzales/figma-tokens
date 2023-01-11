@@ -1,14 +1,36 @@
 {
+  "tokenSetOrder": {
+    "0": {
+      "value": "core",
+      "type": "other"
+    },
+    "1": {
+      "value": "light",
+      "type": "other"
+    },
+    "2": {
+      "value": "dark",
+      "type": "other"
+    },
+    "3": {
+      "value": "theme",
+      "type": "other"
+    }
+  },
   "button": {
     "primary": {
       "background": {
-        "value": "#5a67d8",
+        "value": "#c3002f",
         "type": "color"
       },
       "text": {
         "value": "#ffffff",
         "type": "color"
       }
+    },
+    "borderRadius": {
+      "value": 6,
+      "type": "borderRadius"
     },
     "borderWidth": {
       "value": 8,
@@ -142,7 +164,7 @@
   },
   "accent": {
     "default": {
-      "value": "#5a67d8",
+      "value": "#c3002f",
       "type": "color"
     },
     "onAccent": {
@@ -230,6 +252,10 @@
       "value": "4 8",
       "type": "borderRadius",
       "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
+    },
+    "md": {
+      "value": 6,
+      "type": "borderRadius"
     }
   },
   "colors": {
@@ -529,7 +555,7 @@
         "type": "color"
       },
       "600": {
-        "value": "#5a67d8",
+        "value": "#c3002f",
         "type": "color"
       },
       "700": {
@@ -734,24 +760,6 @@
     "xs": {
       "value": 10.4,
       "type": "fontSizes"
-    }
-  },
-  "tokenSetOrder": {
-    "0": {
-      "value": "core",
-      "type": "other"
-    },
-    "1": {
-      "value": "light",
-      "type": "other"
-    },
-    "2": {
-      "value": "dark",
-      "type": "other"
-    },
-    "3": {
-      "value": "theme",
-      "type": "other"
     }
   }
 }
