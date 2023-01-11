@@ -1,5 +1,7 @@
-module.exports = {
-  source: [`tokens/**/*.json`],
+{
+  "source": [
+    "tokens/**/*.json"
+  ],
   "platforms": {
     "css": {
       "transformGroup": "css",
@@ -11,4 +13,4 @@ module.exports = {
       ]
     }
   }
-};
+}

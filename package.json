@@ -4,10 +4,10 @@
   "description": "",
   "scripts": {
     "transformer": "token-transformer tokens.json tokens/input.json",
-    "dictionary": "style-dictionary build --config config.js"
+    "dictionary": "style-dictionary build --config config.json"
   },
   "dependencies": {
-    "style-dictionary": "^3.7.2",
-    "token-transformer": "^0.0.29"
+    "style-dictionary": "^3.7.1",
+		"token-transformer": "^0.0.27"
   }
 }
