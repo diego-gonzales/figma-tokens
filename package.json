@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "transformer": "token-transformer tokens.json tokens/input.json",
+    "transformer": "token-transformer tokens.json tokens/input.json --expandShadow=true --expandTypography=true",
     "dictionary": "style-dictionary build --config config.json"
   },
   "dependencies": {
