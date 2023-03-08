@@ -7,7 +7,7 @@
       "transformGroup": "css",
       "files": [
         {
-          "destination": "css/variables.css",
+          "destination": "paleta/css/variables.css",
           "format": "css/variables"
         }
       ]
@@ -16,7 +16,7 @@
       "transformGroup": "scss",
       "files": [
         {
-          "destination": "scss/variables.scss",
+          "destination": "paleta/scss/variables.scss",
           "format": "scss/variables"
         }
       ]

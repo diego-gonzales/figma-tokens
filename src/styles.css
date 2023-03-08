@@ -1,3 +1,5 @@
+@import url('../paleta/css/variables.css');
+
 .button-primary {
   background-color: var(--button-primary-background);
   color: var(--button-primary-text);
